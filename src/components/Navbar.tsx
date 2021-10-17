@@ -10,7 +10,7 @@ const Navbar: React.FunctionComponent = () => {
         </NavLink>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <a href="/">To Do List</a>
+            <NavLink to="/">To Do List</NavLink>
           </li>
           <li>
             <NavLink to="/about">About Us</NavLink>
